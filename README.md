@@ -4,11 +4,11 @@
 **Crawlers to fetch structured vehicle data on a regular basis.**
 
 ## Background
-In this project, we will set up a bunch of crawlers to fetch well-structured data points from vehicle websites on a regular (e.g. daily) basis. The data points should include common specifications for most Year + Make + Model combinations.
+In this project, I will set up a bunch of crawlers to fetch well-structured data points from vehicle websites on a regular (e.g. daily) basis. The data points should include common specifications for most Year + Make + Model combinations.
 
 This is one of my side projects in 2020, and it is designed to collect data and fill it into relational database, which will enable [another Java Application](https://github.com/sarachen19/JavaSwing_project) to perform more complicated data analysis and visualization tasks.
 
-I started this project as requested by [Sara](https://github.com/sarachen19), but may extend the features in the feature for wider range of use cases (or may not).
+I started this project as requested by [Sara](https://github.com/sarachen19), but may extend the features in the future for a wider range of use cases (or may not :-p).
 
 ## Expected features and roadmap
 - Data Source
@@ -37,7 +37,7 @@ After some research, I've decided to use [Scarpy](https://scrapy.org/), which is
 
 |SN|Date|Description|Comment|
 |--|--|--|--|
-|1|Jan 18, 2020|Initialize repository, start designing|
+|1|Jan 18, 2020|Initialize repository, start designing, onboarding Scrapy|
 
 ## References
 - Scrapy document. https://doc.scrapy.org/en/latest/
