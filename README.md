@@ -33,6 +33,10 @@ I started this project as requested by [Sara](https://github.com/sarachen19), bu
 ## Solution
 After some research, I've decided to use [Scarpy](https://scrapy.org/), which is an open source Python framework to crawl websites and parse structured data. Its [architecture](https://doc.scrapy.org/en/latest/_images/scrapy_architecture_02.png) enables requests to be scheduled and processed asynchronously. Once onboarding, developers only need to implement data parsing logics, configuration and things like that.
 
+## Usage
+Run `scrapy runspider vehicle_data_crawler/spiders/brand_spider.py` in top level directory.
+The output will be in vehicle_data_crawler folder as current configuration.
+
 ## Milestones
 
 |SN|Date|Description|Comment|
