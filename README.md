@@ -31,7 +31,7 @@ I started this project as requested by [Sara](https://github.com/sarachen19), bu
   - Save to database
 
 ## Solution
-After some research, I've decided to use [Scarpy](https://scrapy.org/), which is an open source Python framework to crawl websites and parse structured data. Its [architecture](https://doc.scrapy.org/en/latest/_images/scrapy_architecture_02.png) enables requests to be scheduled and processed asynchronously. Once onboarding, developers only need to implement data parsing logics, configuration and things like this.
+After some research, I've decided to use [Scarpy](https://scrapy.org/), which is an open source Python framework to crawl websites and parse structured data. Its [architecture](https://doc.scrapy.org/en/latest/_images/scrapy_architecture_02.png) enables requests to be scheduled and processed asynchronously. Once onboarding, developers only need to implement data parsing logics, configuration and things like that.
 
 ## Milestones
 
