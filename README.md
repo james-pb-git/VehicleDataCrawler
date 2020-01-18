@@ -15,7 +15,9 @@ This is one of my side projects in 2020, and it is designed to collect data and 
   - Automatic & intelligent matching between different data formats
 - Data Fetching
   - Fetch data from website
-  - Parse data to required format
+  - Parse data to required format (including year, make, model, engine type etc.)
+  - Inlucde detailed specifications in response.
+  - Enable crawling images.
   - Data cleaning (optional, as the Java App shouldn't expect data to be clean)
 - Fetch jobs
   - One time fetching job
@@ -27,10 +29,15 @@ This is one of my side projects in 2020, and it is designed to collect data and 
   - Save to database
 
 ## Solution
-TBD
+After some research, I've decided to use [Scarpy](https://scrapy.org/), which is an open source Python framework to crawl websites and parse structured data. Its [architecture](https://doc.scrapy.org/en/latest/_images/scrapy_architecture_02.png) enables requests to be scheduled and processed asynchronously. Once onboarding, developers only need to implement data parsing logics, configuration and things like this.
 
 ## Milestones
 
 |SN|Date|Description|Comment|
 |--|--|--|--|
 |1|Jan 18, 2020|Initialize repository, start designing|
+
+## References
+- Scrapy document. https://doc.scrapy.org/en/latest/
+- Crawler example (Lang: Chinese) https://github.com/LittleLory/codePool/tree/master/python/autohome_spider
+
