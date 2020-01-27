@@ -95,6 +95,6 @@ DOWNLOADER_MIDDLEWARES = {
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
 # 数据集输出路径
-FEED_URI = 'vehicle_data_crawler/data/%(name)s_%(time)s.json'
+FEED_URI = 'vehicle_data_crawler/data/%(name)s_%(time)s.csv'
 # 数据集输出格式
-FEED_FORMAT = 'json'
+FEED_FORMAT = 'csv'

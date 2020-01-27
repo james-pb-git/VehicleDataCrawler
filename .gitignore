@@ -130,3 +130,7 @@ dmypy.json
 
 # Misc.
 .idea
+*.csv
+.json
+*.numbers
+*.DS_Store

@@ -34,16 +34,18 @@ I started this project as requested by [Sara](https://github.com/sarachen19), bu
 After some research, I've decided to use [Scarpy](https://scrapy.org/), which is an open source Python framework to crawl websites and parse structured data. Its [architecture](https://doc.scrapy.org/en/latest/_images/scrapy_architecture_02.png) enables requests to be scheduled and processed asynchronously. Once onboarding, developers only need to implement data parsing logics, configuration and things like that.
 
 ## Usage
-Run `scrapy runspider vehicle_data_crawler/spiders/brand_spider.py` in top level directory.
+Run `scrapy runspider vehicle_data_crawler/spiders/[spider_file_name].py` in top level directory.
 The output will be in vehicle_data_crawler folder as current configuration.
 
 ## Milestones
 
 |SN|Date|Description|Comment|
 |--|--|--|--|
-|1|Jan 18, 2020|Initialize repository, start designing, onboarding Scrapy|
+|1|Jan 18, 2020|Initialize repository, start designing, onboarding Scrapy||
+|2|Jan 26, 2020|Crawled structured make + model + generation data from auto-data.net||
 
 ## References
 - Scrapy document. https://doc.scrapy.org/en/latest/
 - Crawler example (Lang: Chinese) https://github.com/LittleLory/codePool/tree/master/python/autohome_spider
+- Vehicle data source. https://www.auto-data.net/en/allbrands
 

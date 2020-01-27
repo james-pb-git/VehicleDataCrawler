@@ -19,3 +19,23 @@ class BrandItem(scrapy.Item):
     name = scrapy.Field()
     url = scrapy.Field()
     pic = scrapy.Field()
+
+class AutoDataBrandItem(scrapy.Item):
+    name = scrapy.Field()
+    url = scrapy.Field()
+    img = scrapy.Field()
+
+class AutoDataModelItem(scrapy.Item):
+    parent_url = scrapy.Field()
+    name = scrapy.Field()
+    url = scrapy.Field()
+    img = scrapy.Field()
+
+class AutoDataGenItem(scrapy.Item):
+    parent_url = scrapy.Field()
+    name = scrapy.Field()
+    url = scrapy.Field()
+    img = scrapy.Field()
+    chassis = scrapy.Field()
+    years = scrapy.Field()
+    desc = scrapy.Field()
